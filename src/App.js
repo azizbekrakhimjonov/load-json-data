@@ -1,11 +1,10 @@
-import React from "react";
-import "./App.css";
-import { Stocks } from "./Stocks";
+import './App.css';
+import Registration from './Registration'
 
 function App() {
   return (
     <div className="App">
-      <Stocks />
+      <Registration />
     </div>
   );
 }
